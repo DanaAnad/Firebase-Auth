@@ -1,0 +1,10 @@
+<p>user-page works!</p>
+<h3>hello {{user?.email}}</h3>
+<div class="formGroup">
+    <input
+      type="button"
+      class="btn btnPrimary"
+      value="Logout"
+      (click)="authService.SignOut()"
+    />
+  </div>

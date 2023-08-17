@@ -1,0 +1,48 @@
+<div class="displayTable">
+    <div class="displayTableCell">
+      <div class="authBlock">
+        <h3>Sign Up</h3>
+        <div class="formGroup">
+          <input
+            type="email"
+            class="formControl"
+            placeholder="Email Address"
+            #userEmail
+            required
+          />
+        </div>
+        <div class="formGroup">
+          <input
+            type="password"
+            class="formControl"
+            placeholder="Password"
+            #userPwd
+            required
+          />
+        </div>
+        <div class="formGroup">
+          <input
+            type="button"
+            class="btn btnPrimary"
+            value="Sign Up"
+            (click)="authService.SignUp(userEmail.value, userPwd.value)"
+          />
+        </div>
+      </div>
+      <div class="redirectToLogin">
+        <span
+          >Already have an account?
+          <input type="button" 
+          class="btn btnPrimary"
+          (click)="authService.SignIn(userEmail.value, userPwd.value)"
+          value="Login"/> or
+          <input type="button" 
+          class="btn btnPrimary" 
+          value="Login with Microsoft"
+          (click)="authService.signInWithMicrosoft()"
+          />
+        </span
+        >
+      </div>
+    </div>
+  </div>
