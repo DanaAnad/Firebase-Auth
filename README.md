@@ -1,6 +1,6 @@
 # AuthPractice
 
-This project is built with angular CLI and it uses firebase API authentication.
+This project is built with angular CLI and makes use of firebase API authentication module.
 I used the standard login form and also social login using Microsoft account.
 On Sign-On you also receive aa confirmation email of your registration.
 No styles were added as I was only practicing with firebase auth API.
