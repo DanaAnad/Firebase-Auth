@@ -1,6 +1,7 @@
 {
-  "name": "auth-practice",
+  "name": "firebase-auth",
   "version": "0.0.0",
+  "homepage": "https://danaanad.github.io/Firebase-Auth/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
