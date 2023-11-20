@@ -1,8 +1,15 @@
 # AuthPractice
 
+This project is built with angular CLI and makes use of firebase API authentication module.
+I used the standard login form and also social login using Microsoft account.
+On Sign-On you also receive a confirmation email of your registration.
+No styles were added as I was only practicing with firebase auth API.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
 ## Development server
+- download or clone the repository.
+- install Node JS, NPM and Angular CLI on your computer using npm install or yarn install command in shell.
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
